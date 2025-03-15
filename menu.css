@@ -20,3 +20,14 @@
     text-decoration: dotted;
     
 }
+/* .bg_img{
+    background-image: url(imagee/bg_pizza1.jpg);
+    height: 400px;
+    width: 1200px;
+    position: relative;
+    
+} */
+ img{
+    border-radius: 10px;
+    box-shadow: 30px;
+ }
