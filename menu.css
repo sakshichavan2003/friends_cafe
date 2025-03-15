@@ -1,0 +1,33 @@
+.linear-gradient{
+    height: 300px;
+    background-color: aqua;
+}
+.menu{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Berlin Sans FB', sans-serif;
+    text-align: center;
+    color: blueviolet;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.marq{
+    color: rgb(39, 10, 53);
+    font-size: larger ;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: dotted;
+    
+}
+/* .bg_img{
+    background-image: url(imagee/bg_pizza1.jpg);
+    height: 400px;
+    width: 1200px;
+    position: relative;
+    
+} */
+ img{
+    border-radius: 10px;
+    box-shadow: 30px;
+ }
