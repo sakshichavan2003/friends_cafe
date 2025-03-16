@@ -20,6 +20,13 @@
     .select{
       margin-top: 150px;
     }
+    .text{
+      font-size: 24px;
+      color:black;
+      font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-color: aliceblue;
+
+    }
     </style>
 
 </head>
@@ -66,16 +73,16 @@
             <div class="col-md-6 p-5">
               <select class="form-select" multiple aria-label="Multiple select example">
                 <option selected>Hot cofee</option>
-                <option value="1">Expresso</option>
-                <option value="2">Hot Chocolate</option>
-                <option value="3">Classic Hot Chocolate</option>
+                <option value="1">Expresso ----------------- Rs.120</option>
+                <option value="2">Hot Chocolate ----------------- Rs.100</option>
+                <option value="3">Classic Hot Chocolate ----------------- Rs.90</option>
               </select><br> <br>
               <select class="form-select" multiple aria-label="Multiple select example">
-                <option selected>Cold cofee</option>
-                <option value="1">Ice Americana</option>
-                <option value="2"> Ice Caremel Coffee</option>
-                <option value="3">Ice Chocolate Coffee</option>
-                <option value="4">Green Ice Tea</option>
+                <option selected>Cold cofee </option>
+                <option value="1">Ice Americana ----------------- Rs.150</option>
+                <option value="2"> Ice Caremel Coffee ----------------- Rs.120</option>
+                <option value="3">Ice Chocolate Coffee ----------------- Rs.100</option>
+                <option value="4">Green Ice Tea ----------------- Rs.110</option>
               </select>
           
             </div>
@@ -85,16 +92,16 @@
           </div>
           <div class="row">
             <div class="col-md-6 p-5">
-              <img class="d-flex justify-content-end" src="/imagee/order1.webp" alt="" height="380px" width="500px">
+              <img class="d-flex justify-content-end" src="/imagee/order1.webp" alt="" height="280px" width="500px">
             </div>
             <div class="col-md-6 p-4 ">
               <select class="form-select select" multiple aria-label="Multiple select example">
                 <option selected>Pizza</option>
-                <option value="1"> Margherita Pizza</option>
-                <option value="2">Periperi Pizza</option>
-                <option value="3">Cheese & Onion</option>
-                <option value="4">Cheese & Tomato</option>
-                <option value="5">Baby Corn Pizza</option>
+                <option value="1"> Margherita Pizza ----------------- Rs.220</option>
+                <option value="2">Periperi Pizza ----------------- Rs.300</option>
+                <option value="3">Cheese & Onion ----------------- Rs.250</option>
+                <option value="4">Cheese & Tomato ----------------- Rs.350</option>
+                <option value="5">Baby Corn Pizza ----------------- Rs.225</option>
               </select>
             </div>
           </div>
@@ -102,37 +109,58 @@
             <div class="col-md-6 p-5">
               <select class="form-select select" multiple aria-label="Multiple select example">
                 <option selected>Dessert</option>
-                <option value="1">Waffle</option>
-                <option value="2"> Pudding</option>
-                <option value="3">Cheesecake</option>
-                <option value="4">Baston cream pie</option>
-                <option value="5">Apple pie</option>
+                <option value="1">Waffle ----------------- Rs.100</option>
+                <option value="2"> Pudding ----------------- Rs.150</option>
+                <option value="3">Cheesecake ----------------- Rs.110</option>
+                <option value="4">Baston cream pie ----------------- Rs.170</option>
+                <option value="5">Apple pie ----------------- Rs.150</option>
               </select>
             </div>
             <div class="col-md-6 p-5">
-              <img class="d-flex justify-content-end" src="/imagee/order2.jpg" alt="" height="380px" width="500px">
+              <img class="d-flex justify-content-end" src="/imagee/order2.jpg" alt="" height="350px" width="500px">
             </div>
           </div>
           <div class="row">
             <div class="col-md-6 p-5">
-              <img class="d-flex justify-content-end" src="/imagee/order3.jpg" alt="" height="380px" width="500px">
+              <img class="d-flex justify-content-end" src="/imagee/order3.jpg" alt="" height="350px" width="500px">
             </div>
             <div class="col-md-6 p-4">
               <select class="form-select select" multiple aria-label="Multiple select example">
                 <option selected>Ice-cream</option>
-                <option value="1">chocolate chip</option>
-                <option value="2">sorbet</option>
-                <option value="3">vanilla</option>
-                <option value="4">chocolate</option>
-                <option value="5">strawberry</option>
+                <option value="1">chocolate chip ----------------- Rs.100</option>
+                <option value="2">sorbet ----------------- Rs.60</option>
+                <option value="3">vanilla ----------------- Rs.150</option>
+                <option value="4">chocolate ----------------- Rs.120</option>
+                <option value="5">strawberry ----------------- Rs.100</option>
               </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 p-5">
+              <select class="form-select select" multiple aria-label="Multiple select example">
+                <option selected>Combo Offer</option>
+                <option value="1">Aloo Tikki Burger + Classic Salted Fries + Cawa ------- Rs.550</option>
+                <option value="2"> Pizza+Pasta+Cold-drink ------- Rs.650</option>
+                <option value="3">Pizza+Coffee+Sandwich ------- Rs.700</option>
+              </select>
+            </div>
+            <div class="col-md-6 p-5">
+              <img class="d-flex justify-content-end" src="/imagee/combo.jpg" alt="" height="350px" width="500px">
             </div>
           </div>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto bg-black">
-          <button class="btn btn-primary" type="button">Order Now</button>
-        </div>
-      </section>    
+          <button  onclick="hello()" class="btn btn-warning" type="submit">Order Now</button>
+        </div><br>
+        <h3 class="text"><marquee bgcolor="white" direction="right" behavior="alternate" scrollamount="15">Thank youu For Visiting !!!</marquee></h3> <br>
+      </section> 
+      <script>
+        function hello()
+        {
+            alert("Ordered Successfully Thank you!!")
+        }
+      </script>   
+     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
