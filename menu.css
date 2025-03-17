@@ -31,3 +31,36 @@
     border-radius: 10px;
     box-shadow: 30px;
  }
+ .vertical{
+    border-color: solid black;
+    position: absolute;
+    height: 200px;
+    left: 50%;
+    margin-left: 2px;
+
+ }
+ .desert{
+    /* background-image: url(imagee/dessert_bg.jpg); */
+    position: relative;
+    background-color: purple;
+ }
+ .shadow{
+    text-align: center;
+    text-shadow: 20px 15px 5px yellowgreen;
+    font-size: 40px;
+    text-decoration: dashed;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+
+ }
+  #mr{
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 20px 15px 5px yellowgreen;
+    font-weight: 500px;
+    font-family: Impact, 'Cursive', sans-serif;    color: blanchedalmond;
+    border: 20px;
+    border-color: rgb(90, 12, 12);
+    background-color: rgb(224, 170, 170);
+ }
